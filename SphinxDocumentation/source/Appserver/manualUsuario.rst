@@ -26,7 +26,7 @@ Cerrar el Servidor
 ====================
 
   En la carpeta donde se corre el servidor se encontrara un archivo llamado:
-comandos.txt
+    comandos.txt
 
   Escribiendo: cerrar en una linea de este archivo se cerrara el server.
 
@@ -36,7 +36,7 @@ Cambiar el Shared
 -------------------
 
   En la carpeta donde se corre el servidor se encontrara un archivo llamado:
-comandos.txt
+    comandos.txt
 
   Escribiendo cambiarShared URL
   se cambiara la URL del sharedServer

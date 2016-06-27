@@ -51,11 +51,11 @@ Login                           Juan Manual y Joaquin
 Observaciones para el primer milestone
 ++++++++++++++++++++++++++++++++++++++++++++
 
-  No tratamos de entregar demasiadas funcionalidades para esta entrega ya que
+No tratamos de entregar demasiadas funcionalidades para esta entrega ya que
 consideramos el tiempo que nos llevaria aprender a utilizar todas las tecnologias
 propuestas.
 
-  Nos dimos cuenta luego que tal vez con una persona el cliente podia ser desarrollado
+Nos dimos cuenta luego que tal vez con una persona el cliente podia ser desarrollado
 y sumandole a esto los problemas que se nos presentaron tratando de trabajar en
 conjunto utilizando un repositorio, decidimos asignarle el desarrollo del cliente
 a Sebastian. A modo de prueba, pudiendo asignar mas personas si fuese necesario.
@@ -117,7 +117,7 @@ Virtualizacion (Docker)         Diego o Joaquin
 Observaciones para el segundo milestone
 +++++++++++++++++++++++++++++++++++++++
 
-  En este milestone nos encontramos con bastantes problemas de organizacion
+En este milestone nos encontramos con bastantes problemas de organizacion
 y comunicacion, uno de los peores fue hacer dos veces lo mismo para el shared
 server.
 
@@ -176,7 +176,7 @@ Virtualizacion (Docker)         Diego
 Observaciones para el tercer milestone
 +++++++++++++++++++++++++++++++++++++++
 
-  Nos jugo en contra el hecho de habernos organizado bien luego de tanto tiempo
+Nos jugo en contra el hecho de habernos organizado bien luego de tanto tiempo
 ya a esta altura algunas personas que habian aprendido algunas tecnologias las
 dejaron de lado para ponerse con otras y esto ademas de generar una sensacion
 negativa provoco un defasaje entre los conocimientos tecnicos entre aquellos que

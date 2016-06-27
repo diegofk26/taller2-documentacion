@@ -7,47 +7,47 @@ Tecnologias utilizadas
 Application Server
 -------------------
 
-# RocksDB
-# Google Test
-# Google Mock
-# Mongoose
-# JsonCPP
-# Docker
-# Doxygen
-# Travis CI
-# gCov
-# Google Cloud Messaging
+* RocksDB
+* Google Test
+* Google Mock
+* Mongoose
+* JsonCPP
+* Docker
+* Doxygen
+* Travis CI
+* gCov
+* Google Cloud Messaging
 
 Shared Server
 --------------
 
-# Angular
-# Node js
-# Heroku
-# HTML
-# bootstrap
-# PostgreSQL
+* Angular
+* Node js
+* Heroku
+* HTML
+* bootstrap
+* PostgreSQL
 
 
 Cliente
 ---------
 
-# Android
-# Doxygen
-# Geolocalizacion
+* Android
+* Doxygen
+* Geolocalizacion
 
 
 
 Documentacion del codigo fuente
 ================================
 
-  Al documentar las clases del servidor de aplicacion y del cliente se utilizaron
+Al documentar las clases del servidor de aplicacion y del cliente se utilizaron
 estandares para generar documentacion a partir de comentarios en el codigo utilizando
 doxygen:
 
-  `Documentacion del Cliente <../../../Doxygen/Cliente/index.html>`_
+`Documentacion del Cliente <../../../Doxygen/Cliente/index.html>`_
 
-  `Documentacion del Application server<../../../Doxygen/Appserver/index.html>`_
+`Documentacion del Application server <../../../Doxygen/Appserver/index.html>`_
 
 
 
