@@ -1,0 +1,4 @@
+<map id="rocksdb::MemTableRepFactory" name="rocksdb::MemTableRepFactory">
+<area shape="rect" id="node2" href="$classrocksdb_1_1SkipListFactory.html" title="rocksdb::SkipListFactory" alt="" coords="5,79,172,104"/>
+<area shape="rect" id="node3" href="$classrocksdb_1_1VectorRepFactory.html" title="rocksdb::VectorRepFactory" alt="" coords="196,79,378,104"/>
+</map>

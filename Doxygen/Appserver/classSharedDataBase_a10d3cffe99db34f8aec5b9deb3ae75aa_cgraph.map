@@ -1,0 +1,6 @@
+<map id="SharedDataBase::obtenerListadoDeIntereses" name="SharedDataBase::obtenerListadoDeIntereses">
+<area shape="rect" id="node2" href="$classListadoDeIntereses.html#a148967d35fc5714b1a8158dc60cd80a8" title="ListadoDeIntereses\l::agregarIntereses" alt="" coords="285,27,421,65"/>
+<area shape="rect" id="node5" href="$classMensajeHTTP.html#a3a4ae2f0872d7fd3662cc93ebfc12c65" title="MensajeHTTP::getBody" alt="" coords="272,89,435,115"/>
+<area shape="rect" id="node3" href="$classJsonObject.html#a9a52a2f313f93bf923adfadff451831e" title="JsonObject::getJsonArray" alt="" coords="483,5,657,31"/>
+<area shape="rect" id="node4" href="$classListadoDeIntereses.html#aa7178e2b423992b423f1d1196ea819dc" title="ListadoDeIntereses\l::tieneInteres" alt="" coords="502,55,638,93"/>
+</map>

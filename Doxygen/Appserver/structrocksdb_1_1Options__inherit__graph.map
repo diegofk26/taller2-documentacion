@@ -1,0 +1,4 @@
+<map id="rocksdb::Options" name="rocksdb::Options">
+<area shape="rect" id="node2" href="$structrocksdb_1_1DBOptions.html" title="rocksdb::DBOptions" alt="" coords="5,5,145,31"/>
+<area shape="rect" id="node3" href="$structrocksdb_1_1ColumnFamilyOptions.html" title="rocksdb::ColumnFamilyOptions" alt="" coords="169,5,376,31"/>
+</map>

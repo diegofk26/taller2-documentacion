@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classMensajeHTTP.html" title="MensajeHTTP" alt="" coords="5,31,112,56"/>
+<area shape="rect" id="node2" href="$classMensajeHTTPReply.html" title="MensajeHTTPReply" alt="" coords="168,5,308,31"/>
+<area shape="rect" id="node3" href="$classMensajeHTTPRequest.html" title="MensajeHTTPRequest" alt="" coords="160,55,316,80"/>
+<area shape="rect" id="node4" href="$classMensajeHTTPRequestGCM.html" title="MensajeHTTPRequestGCM" alt="" coords="364,55,551,80"/>
+</map>

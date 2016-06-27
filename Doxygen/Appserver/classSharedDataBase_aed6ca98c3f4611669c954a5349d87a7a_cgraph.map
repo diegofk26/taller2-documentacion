@@ -1,0 +1,6 @@
+<map id="SharedDataBase::obtenerPerfilDelUsuario" name="SharedDataBase::obtenerPerfilDelUsuario">
+<area shape="rect" id="node2" href="$classMensajeHTTP.html#a3a4ae2f0872d7fd3662cc93ebfc12c65" title="MensajeHTTP::getBody" alt="" coords="259,5,422,31"/>
+<area shape="rect" id="node3" href="$classListadoDeUsuarios.html#a426d57efabeab51fa553cddd5511b9f2" title="ListadoDeUsuarios::\lagregarUsuarios" alt="" coords="270,55,411,93"/>
+<area shape="rect" id="node4" href="$classJsonObject.html#a9a52a2f313f93bf923adfadff451831e" title="JsonObject::getJsonArray" alt="" coords="470,36,644,61"/>
+<area shape="rect" id="node5" href="$classUsuario.html#a3acda6589935fbba258896baddd98fb8" title="Usuario::getEmail" alt="" coords="494,85,620,111"/>
+</map>

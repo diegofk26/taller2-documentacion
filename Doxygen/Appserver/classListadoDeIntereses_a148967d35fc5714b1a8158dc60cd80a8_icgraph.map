@@ -1,0 +1,6 @@
+<map id="ListadoDeIntereses::agregarIntereses" name="ListadoDeIntereses::agregarIntereses">
+<area shape="rect" id="node2" href="$classSharedDataBase.html#a10d3cffe99db34f8aec5b9deb3ae75aa" title="SharedDataBase::obtenerListado\lDeIntereses" alt="" coords="190,5,408,44"/>
+<area shape="rect" id="node3" href="$classUsuario.html#ac4a42ec1b452a32367ae2a5f0273b223" title="Usuario::getIntereses" alt="" coords="225,68,373,93"/>
+<area shape="rect" id="node4" href="$classAdministradorCandidatos.html#ab0ac32f8834aff9bfb7aa4da33bfe57c" title="AdministradorCandidatos\l::compararIntereses" alt="" coords="456,61,627,100"/>
+<area shape="rect" id="node5" href="$classAdministradorCandidatos.html#a5a27cb9f07ec5c10a92ff9002e3d009a" title="AdministradorCandidatos\l::buscarCandidatoPara" alt="" coords="675,61,846,100"/>
+</map>

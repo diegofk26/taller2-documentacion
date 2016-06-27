@@ -1,0 +1,15 @@
+<map id="rocksdb::ImmutableCFOptions" name="rocksdb::ImmutableCFOptions">
+<area shape="rect" id="node2" href="$structrocksdb_1_1CompactionOptionsFIFO.html" title="rocksdb::CompactionOptionsFIFO" alt="" coords="5,17,228,42"/>
+<area shape="rect" id="node3" href="$classrocksdb_1_1MemTableRepFactory.html" title="rocksdb::MemTableRepFactory" alt="" coords="14,66,220,91"/>
+<area shape="rect" id="node4" href="$classrocksdb_1_1MergeOperator.html" title="rocksdb::MergeOperator" alt="" coords="34,115,200,141"/>
+<area shape="rect" id="node5" href="$classrocksdb_1_1CompactionOptionsUniversal.html" title="rocksdb::CompactionOptions\lUniversal" alt="" coords="21,165,213,203"/>
+<area shape="rect" id="node6" href="$structrocksdb_1_1CompressionOptions.html" title="rocksdb::CompressionOptions" alt="" coords="17,227,217,253"/>
+<area shape="rect" id="node7" href="$classrocksdb_1_1Env.html" title="rocksdb::Env" alt="" coords="68,277,166,302"/>
+<area shape="rect" id="node8" href="$classrocksdb_1_1TableFactory.html" title="rocksdb::TableFactory" alt="" coords="41,326,193,351"/>
+<area shape="rect" id="node9" href="$classrocksdb_1_1Statistics.html" title="rocksdb::Statistics" alt="" coords="52,375,181,401"/>
+<area shape="rect" id="node10" href="$classrocksdb_1_1CompactionFilter.html" title="rocksdb::CompactionFilter" alt="" coords="29,425,205,450"/>
+<area shape="rect" id="node11" href="$classrocksdb_1_1SliceTransform.html" title="rocksdb::SliceTransform" alt="" coords="34,474,199,499"/>
+<area shape="rect" id="node12" href="$classrocksdb_1_1CompactionFilterFactory.html" title="rocksdb::CompactionFilter\lFactory" alt="" coords="29,523,205,562"/>
+<area shape="rect" id="node13" href="$classrocksdb_1_1Comparator.html" title="rocksdb::Comparator" alt="" coords="44,586,190,611"/>
+<area shape="rect" id="node14" href="$classrocksdb_1_1Logger.html" title="rocksdb::Logger" alt="" coords="58,635,175,661"/>
+</map>

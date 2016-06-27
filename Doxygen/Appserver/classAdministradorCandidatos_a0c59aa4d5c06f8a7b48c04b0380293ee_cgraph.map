@@ -1,0 +1,6 @@
+<map id="AdministradorCandidatos::usuarioVotaAFavorDe" name="AdministradorCandidatos::usuarioVotaAFavorDe">
+<area shape="rect" id="node2" href="$classCandidatos.html#acb549bd56eefbc3c6f0f9cffd1a75f29" title="Candidatos::usuarioVotaAFavorDe" alt="" coords="224,29,451,55"/>
+<area shape="rect" id="node5" href="$classEstadisticasCandidatos.html#a8cda91671f8cc425ad31a13a411162ff" title="EstadisticasCandidatos\l::contabilizarVotoPara" alt="" coords="258,79,418,117"/>
+<area shape="rect" id="node3" href="$classPareja.html#a9faf806fe2495b4136e14b6b0880c590" title="Pareja::usuarioVota" alt="" coords="499,5,637,31"/>
+<area shape="rect" id="node4" href="$classPareja.html#a1047f97768abe63fdd98e523b859c3a8" title="Pareja::hayMatch" alt="" coords="505,55,630,80"/>
+</map>

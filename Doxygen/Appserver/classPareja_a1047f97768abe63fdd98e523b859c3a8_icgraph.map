@@ -1,0 +1,6 @@
+<map id="Pareja::hayMatch" name="Pareja::hayMatch">
+<area shape="rect" id="node2" href="$classCandidatos.html#acb549bd56eefbc3c6f0f9cffd1a75f29" title="Candidatos::usuarioVotaAFavorDe" alt="" coords="178,16,405,41"/>
+<area shape="rect" id="node4" href="$classCandidatos.html#a3d96ff8c128d242975635a9839046f7b" title="Candidatos::hayMatchEntre" alt="" coords="199,68,385,93"/>
+<area shape="rect" id="node3" href="$classAdministradorCandidatos.html#a0c59aa4d5c06f8a7b48c04b0380293ee" title="AdministradorCandidatos\l::usuarioVotaAFavorDe" alt="" coords="453,5,624,44"/>
+<area shape="rect" id="node5" href="$classAdministradorCandidatos.html#a5b64e63a07f2289bc72296d3b523f2ef" title="AdministradorCandidatos\l::hayMatchEntre" alt="" coords="453,68,624,107"/>
+</map>

@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Manual de usuario &mdash; Application Server .0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Application Server .0 documentation" href="../index.html" />
+    <link rel="up" title="Application Server - Taller de programación II [Grupo 8]" href="appserver.html" />
+    <link rel="next" title="Pruebas - Application Server" href="pruebas.html" />
+    <link rel="prev" title="Guia de instalacion" href="guiaInstalacion.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="manual-de-usuario">
+<h1>Manual de usuario<a class="headerlink" href="#manual-de-usuario" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="iniciar-servidor">
+<h2>Iniciar servidor<a class="headerlink" href="#iniciar-servidor" title="Permalink to this headline">¶</a></h2>
+<p>Debemos primero posicionarnos en la carpeta build/src generada durante la instalacion
+y utilizar el siguiente comando:</p>
+<blockquote>
+<div><p>&gt; ./Appserver PUERTO DIRECCION_SHARED_SV LIMITE_CANDIDATOS</p>
+<p>PUERTO: Es el puerto local se reciben los requests de parte del cliente.</p>
+<p>DIRECCION_SHARED_SV: Es la URL del Shared Server.</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p>La URL no debe incluir http o https. Por ejemplo: t2shared.herokuapp.com</p>
+<p class="last">LIMITE_CANDIDATOS: Limite diario maximo de candidatos que puede pedir un usuario.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Ejemplo: &gt; ./Appserver 8000 t2shared.herokuapp.com 10</p>
+</div>
+</div>
+<div class="section" id="cerrar-el-servidor">
+<h2>Cerrar el Servidor<a class="headerlink" href="#cerrar-el-servidor" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>En la carpeta donde se corre el servidor se encontrara un archivo llamado:</div></blockquote>
+<p>comandos.txt</p>
+<blockquote>
+<div>Escribiendo: cerrar en una linea de este archivo se cerrara el server.</div></blockquote>
+<div class="section" id="cambiar-el-shared">
+<h3>Cambiar el Shared<a class="headerlink" href="#cambiar-el-shared" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>En la carpeta donde se corre el servidor se encontrara un archivo llamado:</div></blockquote>
+<p>comandos.txt</p>
+<blockquote>
+<div><p>Escribiendo cambiarShared URL
+se cambiara la URL del sharedServer</p>
+<p>Ejemplo:</p>
+<p>cambiarShared t2shared.herokuapp.com</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="docker">
+<h2>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Manual de usuario</a><ul>
+<li><a class="reference internal" href="#iniciar-servidor">Iniciar servidor</a></li>
+<li><a class="reference internal" href="#cerrar-el-servidor">Cerrar el Servidor</a><ul>
+<li><a class="reference internal" href="#cambiar-el-shared">Cambiar el Shared</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#docker">Docker</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="appserver.html">Application Server - Taller de programación II  [Grupo 8]</a><ul>
+      <li>Previous: <a href="guiaInstalacion.html" title="previous chapter">Guia de instalacion</a></li>
+      <li>Next: <a href="pruebas.html" title="next chapter">Pruebas - Application Server</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/Appserver/manualUsuario.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Grupo 8.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/Appserver/manualUsuario.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

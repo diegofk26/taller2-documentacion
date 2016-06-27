@@ -1,0 +1,5 @@
+<map id="mg_mgr" name="mg_mgr">
+<area shape="rect" id="node2" href="$structmg__connection.html" title="mg_connection" alt="" coords="87,133,199,158"/>
+<area shape="rect" id="node3" href="$structmbuf.html" title="mbuf" alt="" coords="192,5,243,31"/>
+<area shape="rect" id="node4" href="$unionsocket__address.html" title="socket_address" alt="" coords="267,5,382,31"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="MensajeHTTPReply::getCodigo" name="MensajeHTTPReply::getCodigo">
+<area shape="rect" id="node2" href="$classManejadorDeConexiones.html#a5ddc9c13584c9ccdda092c2330e1856b" title="ManejadorDeConexiones\l::enviarMensajeHTTP" alt="" coords="268,61,440,100"/>
+<area shape="rect" id="node3" href="$classMensajero.html#a0e96fe365982337885ad15b9855aa2d9" title="Mensajero::notificarUsuario\lSobreMatchCon" alt="" coords="519,5,703,44"/>
+<area shape="rect" id="node5" href="$classSharedDataBase.html#a21b1b24a05e8688920fbca7b73db29a9" title="SharedDataBase::registrar\lUsuario" alt="" coords="265,124,444,163"/>
+<area shape="rect" id="node6" href="$classSharedDataBase.html#a5b49180f24cc1207b9377071de629464" title="SharedDataBase::eliminar\lUsuario" alt="" coords="266,187,443,225"/>
+<area shape="rect" id="node7" href="$classSharedDataBase.html#a41db25712bbc219d3d0fdcd97f37b890" title="SharedDataBase::modificar\lFotoPerfil" alt="" coords="262,249,447,288"/>
+<area shape="rect" id="node4" href="$classSharedDataBase.html#ab97922b7ccd9e5977e253929c4a25346" title="SharedDataBase::cambiarDireccion" alt="" coords="495,68,728,93"/>
+</map>

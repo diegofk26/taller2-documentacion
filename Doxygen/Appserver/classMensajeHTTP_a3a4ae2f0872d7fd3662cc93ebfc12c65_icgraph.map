@@ -1,0 +1,11 @@
+<map id="MensajeHTTP::getBody" name="MensajeHTTP::getBody">
+<area shape="rect" id="node2" href="$classMensajeHTTPReply.html#a95c2acf562527553dc7218827c3d2049" title="MensajeHTTPReply::toString" alt="" coords="228,41,422,66"/>
+<area shape="rect" id="node4" href="$classMensajero.html#a0e96fe365982337885ad15b9855aa2d9" title="Mensajero::notificarUsuario\lSobreMatchCon" alt="" coords="727,97,911,136"/>
+<area shape="rect" id="node6" href="$classMensajeHTTPRequest.html#a7b1f874c87b76188e7c76eeea5b9e281" title="MensajeHTTPRequest\l::toString" alt="" coords="247,90,404,129"/>
+<area shape="rect" id="node7" href="$classSharedDataBase.html#a21b1b24a05e8688920fbca7b73db29a9" title="SharedDataBase::registrar\lUsuario" alt="" coords="236,205,415,244"/>
+<area shape="rect" id="node8" href="$classSharedDataBase.html#aed6ca98c3f4611669c954a5349d87a7a" title="SharedDataBase::obtenerPerfil\lDelUsuario" alt="" coords="223,268,428,306"/>
+<area shape="rect" id="node10" href="$classSharedDataBase.html#a10d3cffe99db34f8aec5b9deb3ae75aa" title="SharedDataBase::obtenerListado\lDeIntereses" alt="" coords="216,330,435,369"/>
+<area shape="rect" id="node3" href="$classManejadorDeConexiones.html#a5ddc9c13584c9ccdda092c2330e1856b" title="ManejadorDeConexiones\l::enviarMensajeHTTP" alt="" coords="483,40,655,78"/>
+<area shape="rect" id="node5" href="$classSharedDataBase.html#ab97922b7ccd9e5977e253929c4a25346" title="SharedDataBase::cambiarDireccion" alt="" coords="703,46,936,72"/>
+<area shape="rect" id="node9" href="$classAdministradorCandidatos.html#a5a27cb9f07ec5c10a92ff9002e3d009a" title="AdministradorCandidatos\l::buscarCandidatoPara" alt="" coords="483,268,654,306"/>
+</map>

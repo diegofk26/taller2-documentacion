@@ -1,0 +1,33 @@
+<map id="AdministradorCandidatos::buscarCandidatoPara" name="AdministradorCandidatos::buscarCandidatoPara">
+<area shape="rect" id="node2" href="$classEstadisticasCandidatos.html#a5d1beb17279826cbd8f95fc4c41b404d" title="EstadisticasCandidatos\l::usuarioSuperoLimiteDeCandidatos" alt="" coords="224,5,460,44"/>
+<area shape="rect" id="node3" href="$classListadoDeUsuarios.html#a2dc55409255839bc618b15f2ac5a6f1a" title="ListadoDeUsuarios::\lgetUsuario" alt="" coords="271,68,413,107"/>
+<area shape="rect" id="node4" href="$classListadoDeUsuarios.html#aa7329bf3e035dd251530744a601f9ece" title="ListadoDeUsuarios::\lirAlInicio" alt="" coords="271,131,413,169"/>
+<area shape="rect" id="node5" href="$classListadoDeUsuarios.html#ae83402c5fe88b6ecd136d3c96ea7f5ed" title="ListadoDeUsuarios::\lgetSiguienteUsuario" alt="" coords="271,193,413,232"/>
+<area shape="rect" id="node6" href="$classUsuario.html#a3acda6589935fbba258896baddd98fb8" title="Usuario::getEmail" alt="" coords="736,392,863,417"/>
+<area shape="rect" id="node7" href="$classCandidatos.html#abb4837245d85e28e2b86ae05e133b310" title="Candidatos::usuarioFueNotificado\lSobreElCandidato" alt="" coords="231,256,453,295"/>
+<area shape="rect" id="node9" href="$classAdministradorCandidatos.html#ab0ac32f8834aff9bfb7aa4da33bfe57c" title="AdministradorCandidatos\l::compararIntereses" alt="" coords="257,319,428,357"/>
+<area shape="rect" id="node16" href="$classEstadisticasCandidatos.html#a39939198d502a29bc5656e5861d403cf" title="EstadisticasCandidatos\l::usuarioEsPopular" alt="" coords="262,433,422,472"/>
+<area shape="rect" id="node17" href="$classSharedDataBase.html#aed6ca98c3f4611669c954a5349d87a7a" title="SharedDataBase::obtenerPerfil\lDelUsuario" alt="" coords="239,496,445,535"/>
+<area shape="rect" id="node20" href="$classUsuario.html#af72cadb2cfa815ef3318f2544d1df4ef" title="Usuario::getId" alt="" coords="290,559,394,584"/>
+<area shape="rect" id="node21" href="$classCandidatos.html#a7eea8f2e1a19d605678588f482b97b08" title="Candidatos::registrarNotificacion\lAUsuarioSobreCandidato" alt="" coords="235,608,449,647"/>
+<area shape="rect" id="node23" href="$classEstadisticasCandidatos.html#a024e1d4eefb1b58ec5dda6a7b899bf6e" title="EstadisticasCandidatos\l::contabilizarCandidatoPara" alt="" coords="250,671,435,709"/>
+<area shape="rect" id="node24" href="$classUsuario.html#a5f2234908325bc89b0849c0ab28d61aa" title="Usuario::toString" alt="" coords="282,733,402,759"/>
+<area shape="rect" id="node8" href="$classPareja.html#a008252b44151f929af766c2f896eb6b6" title="Pareja::estaNotificado" alt="" coords="520,120,672,145"/>
+<area shape="rect" id="node10" href="$classUsuario.html#ac4a42ec1b452a32367ae2a5f0273b223" title="Usuario::getIntereses" alt="" coords="522,336,670,361"/>
+<area shape="rect" id="node13" href="$classListadoDeIntereses.html#aa7178e2b423992b423f1d1196ea819dc" title="ListadoDeIntereses\l::tieneInteres" alt="" coords="951,272,1087,311"/>
+<area shape="rect" id="node14" href="$classListadoDeIntereses.html#a9dd88a649eb2b2f65bdd3e65e2fc47b4" title="ListadoDeIntereses\l::size" alt="" coords="731,244,868,283"/>
+<area shape="rect" id="node15" href="$classListadoDeIntereses.html#aab8af1012932dcd636b547d11ef87213" title="ListadoDeIntereses\l::getInteres" alt="" coords="528,221,664,260"/>
+<area shape="rect" id="node11" href="$classListadoDeIntereses.html#a148967d35fc5714b1a8158dc60cd80a8" title="ListadoDeIntereses\l::agregarIntereses" alt="" coords="731,329,868,368"/>
+<area shape="rect" id="node12" href="$classJsonObject.html#a9a52a2f313f93bf923adfadff451831e" title="JsonObject::getJsonArray" alt="" coords="932,389,1106,415"/>
+<area shape="rect" id="node18" href="$classMensajeHTTP.html#a3a4ae2f0872d7fd3662cc93ebfc12c65" title="MensajeHTTP::getBody" alt="" coords="514,503,677,528"/>
+<area shape="rect" id="node19" href="$classListadoDeUsuarios.html#a426d57efabeab51fa553cddd5511b9f2" title="ListadoDeUsuarios::\lagregarUsuarios" alt="" coords="525,437,666,476"/>
+<area shape="rect" id="node22" href="$classPareja.html#a33774363ab6d6a494b0a6ae0aeafc55a" title="Pareja::notificarUsuario" alt="" coords="516,615,676,640"/>
+<area shape="rect" id="node25" href="$classJsonObject.html#a6e4d553543a3dbfd75d09c1ab449b025" title="JsonObject::agregarClave\lValor" alt="" coords="508,755,683,793"/>
+<area shape="rect" id="node26" href="$classJsonValor.html#adcea7ce81e014bf14b67983c1bea3282" title="JsonValor::toString" alt="" coords="529,705,662,731"/>
+<area shape="rect" id="node27" href="$classJson_1_1StyledWriter.html#a5efab19b9746da9920c29cdae3a6b404" title="Serialize a Value in JSON format. " alt="" coords="735,699,864,737"/>
+<area shape="rect" id="node28" href="$classJson_1_1Value.html#a2e1b7be6bde2fe23f15290d9ddbbdf8a" title="Json::Value::getString" alt="" coords="944,755,1095,780"/>
+<area shape="rect" id="node29" href="$classJson_1_1Value.html#a79d7725dce6260317333e69022367ac9" title="Return a list of the member names. " alt="" coords="916,804,1123,829"/>
+<area shape="rect" id="node30" href="$classJson_1_1Value.html#a0ec2808e1d7efa4e9fad938d6667be44" title="Number of values in array or object. " alt="" coords="1387,680,1508,705"/>
+<area shape="rect" id="node31" href="$classJson_1_1Value.html#a82817229a986f0b254e31d5c83066ffe" title="Include delimiters and embedded newlines. " alt="" coords="932,705,1106,731"/>
+<area shape="rect" id="node32" href="$classJson_1_1Value.html#ac2928f174a6e081c1500c28c2d61ee93" title="Return true if index &lt; size(). " alt="" coords="1171,705,1339,731"/>
+</map>

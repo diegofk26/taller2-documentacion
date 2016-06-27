@@ -1,0 +1,5 @@
+<map id="AdministradorCandidatos::inicializarCandidato" name="AdministradorCandidatos::inicializarCandidato">
+<area shape="rect" id="node2" href="$classEstadisticasCandidatos.html#af27e013c08328f2135fa062d80157e78" title="EstadisticasCandidatos\l::inicializarUsuario" alt="" coords="232,5,392,44"/>
+<area shape="rect" id="node3" href="$classUsuario.html#a89e5ff6219c956e0dd32aeb06ca37117" title="Usuario::getLocalizacion" alt="" coords="229,68,395,93"/>
+<area shape="rect" id="node4" href="$classLocalizacion.html#abe58cdab5fd6f876c2dad36e2e422776" title="Localizacion::getDistancia" alt="" coords="224,117,400,143"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="rocksdb::WriteBatchBase" name="rocksdb::WriteBatchBase">
+<area shape="rect" id="node2" href="$classrocksdb_1_1WriteBatch.html" title="rocksdb::WriteBatch" alt="" coords="5,79,146,104"/>
+<area shape="rect" id="node3" href="$classrocksdb_1_1WriteBatchWithIndex.html" title="rocksdb::WriteBatchWithIndex" alt="" coords="170,79,370,104"/>
+</map>

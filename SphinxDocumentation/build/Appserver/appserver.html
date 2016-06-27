@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Application Server - Taller de programación II [Grupo 8] &mdash; Application Server .0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Application Server .0 documentation" href="../index.html" />
+    <link rel="next" title="Guia de instalacion" href="guiaInstalacion.html" />
+    <link rel="prev" title="Documentacion Tecnica" href="../DocTecnica/doctecnica.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="application-server-taller-de-programacion-ii-grupo-8">
+<h1>Application Server - Taller de programación II  [Grupo 8]<a class="headerlink" href="#application-server-taller-de-programacion-ii-grupo-8" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="descripcion">
+<h2>Descripción<a class="headerlink" href="#descripcion" title="Permalink to this headline">¶</a></h2>
+<p>Se trata de una aplicación linux por consola destinada a mantenerse en ejecución por períodos prolongados de tiempo. Brinda una interfaz para la comunicación de los diferentes clientes que se conecten a la misma.</p>
+<p>La interfaz de comunicación se realiza a traves de una Restful API, que define la forma de las solicitudes y respuestas de los diferentes servicios que brindará el servidor. Estos ultimos son:</p>
+<div class="section" id="servicio-de-autenticacion">
+<h3>Servicio de autenticación<a class="headerlink" href="#servicio-de-autenticacion" title="Permalink to this headline">¶</a></h3>
+<p>El servidor dispondrá de un servicio para la autenticación de los clientes. Este servicio consta de una solicitud de autenticación, que viene junto con las credenciales del usuario. La respuesta a la solicitud es un token (identificador) de la sesión del usuario.</p>
+</div>
+<div class="section" id="servicio-de-busqueda-de-candidato">
+<h3>Servicio de búsqueda de candidato<a class="headerlink" href="#servicio-de-busqueda-de-candidato" title="Permalink to this headline">¶</a></h3>
+<p>El servidor provee un servicio en donde el usuario podrá solicitar un posible candidato para match.</p>
+</div>
+<div class="section" id="servicio-de-conversaciones">
+<h3>Servicio de conversaciones<a class="headerlink" href="#servicio-de-conversaciones" title="Permalink to this headline">¶</a></h3>
+<p>El servidor brindará un servicio para el delivery de conversaciones.</p>
+<p>Para poder iniciar una conversación entre dos usuarios es necesario que exista un match entre ellos.</p>
+</div>
+</div>
+<div class="section" id="contenidos">
+<h2>Contenidos<a class="headerlink" href="#contenidos" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="guiaInstalacion.html">Guia de instalacion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="guiaInstalacion.html#descarga">Descarga</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guiaInstalacion.html#dependencias">Dependencias</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guiaInstalacion.html#instalacion">Instalacion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guiaInstalacion.html#instalacion-de-docker">Instalacion de Docker</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="manualUsuario.html">Manual de usuario</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="manualUsuario.html#iniciar-servidor">Iniciar servidor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="manualUsuario.html#cerrar-el-servidor">Cerrar el Servidor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="manualUsuario.html#cambiar-el-shared">Cambiar el Shared</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="manualUsuario.html#docker">Docker</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pruebas.html">Pruebas - Application Server</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pruebas.html#coverage">Coverage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pruebas.html#pruebas-de-api">Pruebas de API</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pruebas.html#como-correrlas">¿Como correrlas?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pruebas.html#pruebas-unitarias">Pruebas Unitarias</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pruebas.html#id1">¿Como correrlas?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Application Server - Taller de programación II  [Grupo 8]</a><ul>
+<li><a class="reference internal" href="#descripcion">Descripción</a><ul>
+<li><a class="reference internal" href="#servicio-de-autenticacion">Servicio de autenticación</a></li>
+<li><a class="reference internal" href="#servicio-de-busqueda-de-candidato">Servicio de búsqueda de candidato</a></li>
+<li><a class="reference internal" href="#servicio-de-conversaciones">Servicio de conversaciones</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#contenidos">Contenidos</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../DocTecnica/doctecnica.html" title="previous chapter">Documentacion Tecnica</a></li>
+      <li>Next: <a href="guiaInstalacion.html" title="next chapter">Guia de instalacion</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/Appserver/appserver.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Grupo 8.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/Appserver/appserver.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

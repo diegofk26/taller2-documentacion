@@ -1,0 +1,4 @@
+<map id="rocksdb::ReadOptions" name="rocksdb::ReadOptions">
+<area shape="rect" id="node2" href="$classrocksdb_1_1Slice.html" title="rocksdb::Slice" alt="" coords="5,5,110,31"/>
+<area shape="rect" id="node3" href="$classrocksdb_1_1Snapshot.html" title="rocksdb::Snapshot" alt="" coords="149,5,281,31"/>
+</map>

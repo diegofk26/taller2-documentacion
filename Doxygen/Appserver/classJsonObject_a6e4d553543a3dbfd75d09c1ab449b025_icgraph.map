@@ -1,0 +1,16 @@
+<map id="JsonObject::agregarClaveValor" name="JsonObject::agregarClaveValor">
+<area shape="rect" id="node2" href="$classCredencialesDeUsuarios.html#aa495a2cc2e0d3bb9015c9ef2443372d8" title="CredencialesDeUsuarios\l::getIDSharedDe" alt="" coords="247,5,416,44"/>
+<area shape="rect" id="node3" href="$classInteres.html#acc902062481a583ed27f56da691b2ceb" title="Interes::toJsonObject" alt="" coords="258,68,405,93"/>
+<area shape="rect" id="node4" href="$classListadoDeIntereses.html#ab45a9ba57097cc76f35281fd106b65dc" title="ListadoDeIntereses\l::toString" alt="" coords="263,117,399,156"/>
+<area shape="rect" id="node5" href="$classMensajero.html#a44f018371a6652717570ec1f003fc35a" title="Mensajero::enviarMensaje" alt="" coords="243,180,420,205"/>
+<area shape="rect" id="node6" href="$classMensajero.html#a0e96fe365982337885ad15b9855aa2d9" title="Mensajero::notificarUsuario\lSobreMatchCon" alt="" coords="502,173,685,212"/>
+<area shape="rect" id="node7" href="$classMensajes.html#ac9cef976098cfebde8e682bdd91d6695" title="Mensajes::agregarMensaje" alt="" coords="240,281,422,307"/>
+<area shape="rect" id="node10" href="$classSharedDataBase.html#a41db25712bbc219d3d0fdcd97f37b890" title="SharedDataBase::modificar\lFotoPerfil" alt="" coords="239,331,424,369"/>
+<area shape="rect" id="node11" href="$classUsuario.html#a5f2234908325bc89b0849c0ab28d61aa" title="Usuario::toString" alt="" coords="271,393,392,419"/>
+<area shape="rect" id="node15" href="$classUsuario.html#afdaba2a87e10eb44171b576c11186440" title="Usuario::actualizarLocalizacion" alt="" coords="229,443,434,468"/>
+<area shape="rect" id="node8" href="$classConversaciones.html#a9453bdc8b3fb01408684ec2441e17121" title="Conversaciones::obtenerCantidad\lMensajesDesdeEntre" alt="" coords="482,236,705,275"/>
+<area shape="rect" id="node9" href="$classConversaciones.html#a76e644eb0db6496348caf3b8dade1b54" title="Conversaciones::agregarMensaje\lDePara" alt="" coords="483,299,704,337"/>
+<area shape="rect" id="node12" href="$classAdministradorCandidatos.html#a5a27cb9f07ec5c10a92ff9002e3d009a" title="AdministradorCandidatos\l::buscarCandidatoPara" alt="" coords="508,361,679,400"/>
+<area shape="rect" id="node13" href="$classSharedDataBase.html#a21b1b24a05e8688920fbca7b73db29a9" title="SharedDataBase::registrar\lUsuario" alt="" coords="504,424,683,463"/>
+<area shape="rect" id="node14" href="$classSharedDataBase.html#a079c9c86f713fd5bff4b07de04717824" title="SharedDataBase::modificar\lPerfilUsuario" alt="" coords="501,487,686,525"/>
+</map>

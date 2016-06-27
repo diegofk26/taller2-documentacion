@@ -1,0 +1,9 @@
+<map id="rocksdb::DB" name="rocksdb::DB">
+<area shape="rect" id="node2" href="$classrocksdb_1_1StackableDB.html" title="rocksdb::StackableDB" alt="" coords="147,129,300,155"/>
+<area shape="rect" id="node3" href="$classrocksdb_1_1BackupableDB.html" title="rocksdb::BackupableDB" alt="" coords="356,5,520,31"/>
+<area shape="rect" id="node4" href="$classrocksdb_1_1DBWithTTL.html" title="rocksdb::DBWithTTL" alt="" coords="366,55,510,80"/>
+<area shape="rect" id="node5" href="$classrocksdb_1_1DocumentDB.html" title="rocksdb::DocumentDB" alt="" coords="361,104,515,129"/>
+<area shape="rect" id="node6" href="$classrocksdb_1_1GeoDB.html" title="rocksdb::GeoDB" alt="" coords="379,153,498,179"/>
+<area shape="rect" id="node7" href="$classrocksdb_1_1spatial_1_1SpatialDB.html" title="rocksdb::spatial::SpatialDB" alt="" coords="348,203,528,228"/>
+<area shape="rect" id="node8" href="$classrocksdb_1_1TransactionDB.html" title="rocksdb::TransactionDB" alt="" coords="357,252,520,277"/>
+</map>

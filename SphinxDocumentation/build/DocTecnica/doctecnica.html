@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Documentacion Tecnica &mdash; Application Server .0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Application Server .0 documentation" href="../index.html" />
+    <link rel="next" title="Application Server - Taller de programación II [Grupo 8]" href="../Appserver/appserver.html" />
+    <link rel="prev" title="Organizacion del equipo de desarrollo" href="../ManualDelProyecto/organizacion.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="documentacion-tecnica">
+<h1>Documentacion Tecnica<a class="headerlink" href="#documentacion-tecnica" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="tecnologias-utilizadas">
+<h2>Tecnologias utilizadas<a class="headerlink" href="#tecnologias-utilizadas" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="application-server">
+<h3>Application Server<a class="headerlink" href="#application-server" title="Permalink to this headline">¶</a></h3>
+<p># RocksDB
+# Google Test
+# Google Mock
+# Mongoose
+# JsonCPP
+# Docker
+# Doxygen
+# Travis CI
+# gCov
+# Google Cloud Messaging</p>
+</div>
+<div class="section" id="shared-server">
+<h3>Shared Server<a class="headerlink" href="#shared-server" title="Permalink to this headline">¶</a></h3>
+<p># Angular
+# Node js
+# Heroku
+# HTML
+# bootstrap
+# PostgreSQL</p>
+</div>
+<div class="section" id="cliente">
+<h3>Cliente<a class="headerlink" href="#cliente" title="Permalink to this headline">¶</a></h3>
+<p># Android
+# Doxygen
+# Geolocalizacion</p>
+</div>
+</div>
+<div class="section" id="documentacion-del-codigo-fuente">
+<h2>Documentacion del codigo fuente<a class="headerlink" href="#documentacion-del-codigo-fuente" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Al documentar las clases del servidor de aplicacion y del cliente se utilizaron</div></blockquote>
+<p>estandares para generar documentacion a partir de comentarios en el codigo utilizando
+doxygen:</p>
+<blockquote>
+<div><p><a class="reference external" href="../../../Doxygen/Cliente/index.html">Documentacion del Cliente</a></p>
+<p><a href="#id2"><span class="problematic" id="id3">`Documentacion del Application server&lt;../../../Doxygen/Appserver/index.html&gt;`_</span></a></p>
+</div></blockquote>
+</div>
+<div class="section" id="estructuras-de-bases-de-datos-de-application-server">
+<h2>Estructuras de bases de datos de Application Server<a class="headerlink" href="#estructuras-de-bases-de-datos-de-application-server" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="credenciales-de-usuarios">
+<h3>Credenciales de usuarios:<a class="headerlink" href="#credenciales-de-usuarios" title="Permalink to this headline">¶</a></h3>
+<p>claveDeUsuario{id} | Password | IdSharedServer</p>
+</div>
+<div class="section" id="candidatos">
+<h3>Candidatos:<a class="headerlink" href="#candidatos" title="Permalink to this headline">¶</a></h3>
+<p>U1U2 | claveUsuario1 | claveUsuario2 | estadoDeVoto1 | estadoDeVoto2</p>
+<blockquote>
+<div><p>U1U2: &#8220;usuario1 usuario2&#8221; (el orden de los usuarios depende de sus caracteres ASCII).</p>
+<dl class="docutils">
+<dt>estadoDeVoto&#8217;n&#8217;: Es un numero.</dt>
+<dd>0: usuario n voto en contra
+1: usuario n voto a favor
+2: usuario n fue notificado sobre el otro usuario pero no emitio voto
+3: usuario n no fue notificado.</dd>
+</dl>
+<p>claveUsuario&#8217;n&#8217;: &#8220;usuarion&#8221;</p>
+</div></blockquote>
+</div>
+<div class="section" id="conversaciones">
+<h3>Conversaciones<a class="headerlink" href="#conversaciones" title="Permalink to this headline">¶</a></h3>
+<p>U1U2 | mensajes</p>
+<blockquote>
+<div><p>U1U2: &#8220;usuario1 usuario2&#8221; (el orden de los usuarios depende de sus caracteres ASCII).</p>
+<dl class="docutils">
+<dt>mensajes: Es un jsonArray que contiene los mensajes enviados entre los dos usuarios</dt>
+<dd><p class="first">de la clave.</p>
+<p class="last">mensaje: Es un jsonObject con las claves emisor y mensaje.</p>
+</dd>
+</dl>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id1">
+<h2>Cliente<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>Especificaciones técnicas:</p>
+<p>Descripción de actividades de la aplicación:</p>
+<ol class="arabic simple">
+<li>MainActivity: ScreenSplash actividad, básicamente es una pantalla de bienvenida/carga, donde se inicia la conexión con el server. De ser posible se van pasando actividades sin que el usuario tenga que volver a ingresar el login, o tenga que ingresar el ip:port, si esos datos ya están persistidos y de esta manera llega de forma rápida a MatchingActivity.</li>
+<li>SelectLoginOrRegistryActivity: Se elige la modalidad para ingresar a la aplicación.</li>
+<li>LoginActivity: en esta modalidad de ingreso a la aplicación, el usuario ya debe estar registrado, de otra forma obtendrá un mensaje al loguearse y no podrá loguearse de esta forma.</li>
+<li>RegistryActivity: en esta modalidad para ingresar a la aplicación, el usuario es un usuario nuevo, si es un usuario ya registrado obtendrá un error al registrarse. Se piden datos básicos como nombre, edad (menor que 150), alias, contraseña (mayor a 5 caracteres), email, contraseña. Ninguno de estos datos pueden estar vacíos o violar las restricciones propuestas, sino el usuario obtiene un mensaje para rectificar los datos.</li>
+<li>InterestsActivity: Se agregan intereses que se obtienen del Appserver.</li>
+<li>MatchingActivity: actividad de matcheo de personas.</li>
+<li>InformationActivity: Información básica junto con una image.</li>
+<li>ChatListActivity: Listado de todos los chats disponibles para el usuario.</li>
+<li>ChatActivity: chat del usuario con otro usuario, desde aquí se contempló que al error de enviar un mensaje, se pueda volver a enviar el mensaje nuevamente clickeando en la burbuja.</li>
+<li>ProfileActivity: perfil del usuario.</li>
+<li>EditProfileActivity: Perfil del usuario editable.</li>
+<li>AreYouSureActivity: actividad donde se advierte al usuario de que Borrar su perfil no tiene vuelta atrás.</li>
+</ol>
+<p>Descripción de las vistas usadas en las actividades:</p>
+<ol class="arabic">
+<li><p class="first">MainActivity: Se usaron dos WebViews para reproducir dos animaciones .gif y un TextView para personalizar un mensaje para el usuario.</p>
+</li>
+<li><p class="first">SelectLoginOrRegistryActivity: Simples Buttons con sus Onclick especificados para ir a Actividades diferentes.</p>
+</li>
+<li><p class="first">LoginActivity: EditTextView para la edición del Usuario y Contraseña, un CheckBox para habilitar o deshabilitar ocultar la contraseña.</p>
+</li>
+<li><p class="first">RegistryActivity: EditTextView para la edición del Nombre, Alias, Edad (numérico), Email, y Contraseña. Mismo CheckBox que la actividad anterior, y dos RadioButton para representar el género del usuario (Solo uno de los dos puede quedar seleccionado).</p>
+</li>
+<li><p class="first">MatchingActivity: Se usó varios ImagenViews para representar tanto la imagen de perfil del usuario como los botones de voto e información del usuario a votar.</p>
+</li>
+<li><p class="first">InformationActivity: Se usó TextViews para representar el Nombre, Alias, Edad, Sexo e Intereses. Un ExpandableListView para representar los intereses del usuario a votar.</p>
+</li>
+<li><p class="first">ChatListActivity: ListView para modelizar los usuarios matcheados.</p>
+</li>
+<li><p class="first">ChatActivity: ListView para modelizar los mensajes que se intercambian los usuarios y un RelativeLayout donde yace un EditText y un Button para editar el próximo mensaje a enviar.</p>
+</li>
+<li><p class="first">ProfileActivity:  Se tienen TextViews para representar el Nombre, Alias, Edad, Sexo e Intereses en formato HTML. Un ExpandableListView para representar los intereses del usuario a votar.</p>
+</li>
+<li><p class="first">EditProfileActivity: TextView para modelizar un header Nombre, Alias e Intereses. EditText para editar el Nombre y Alias. Y un ExpandableListView con EditViews como childs para editar los intereses, a su vez se va setear texto en los EditText, para que aparezcan los intereses anteriores del usuario.</p>
+</li>
+<li><p class="first">AreYouSureActivity: simple activdad con dos Buttons, uno Borra el usuario y va a SelectLoginOrRegistryActivity y el otro vuelve a MatchingActivity.</p>
+<p>Vistas usadas por las ListViews y ExpandableListViews:</p>
+</li>
+</ol>
+<ol class="arabic simple">
+<li>Interesest_item: EditText, ImageView (símbolo de +), y un TextVIew como marquesina (usado por  los ExpandableVIews de InterestActivity y EditProfileActivity)</li>
+<li>List_group: básico TextView con un fondo negro, para modelizar un header.</li>
+<li>List_item: item de ChatListActivity, lo usa su ListView. Consta de una ImageView para visualizar la imagen de perfil del usuario matcheado y dos TextViews uno para el nombre del usuario matcheado y otro para el último mensaje entre ambos.</li>
+<li>Profile_interestItem: único TextView para modelizar a los childs del ExpandableListView tanto de ProfileActivity cómo de InformartionActivity.</li>
+</ol>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Documentacion Tecnica</a><ul>
+<li><a class="reference internal" href="#tecnologias-utilizadas">Tecnologias utilizadas</a><ul>
+<li><a class="reference internal" href="#application-server">Application Server</a></li>
+<li><a class="reference internal" href="#shared-server">Shared Server</a></li>
+<li><a class="reference internal" href="#cliente">Cliente</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#documentacion-del-codigo-fuente">Documentacion del codigo fuente</a></li>
+<li><a class="reference internal" href="#estructuras-de-bases-de-datos-de-application-server">Estructuras de bases de datos de Application Server</a><ul>
+<li><a class="reference internal" href="#credenciales-de-usuarios">Credenciales de usuarios:</a></li>
+<li><a class="reference internal" href="#candidatos">Candidatos:</a></li>
+<li><a class="reference internal" href="#conversaciones">Conversaciones</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id1">Cliente</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../ManualDelProyecto/organizacion.html" title="previous chapter">Organizacion del equipo de desarrollo</a></li>
+      <li>Next: <a href="../Appserver/appserver.html" title="next chapter">Application Server - Taller de programación II  [Grupo 8]</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/DocTecnica/doctecnica.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Grupo 8.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/DocTecnica/doctecnica.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<map id="SharedDataBase::cambiarDireccion" name="SharedDataBase::cambiarDireccion">
+<area shape="rect" id="node2" href="$classMensajeHTTPRequest.html#a3ecb30dba9bb014cde0599f4c3950743" title="MensajeHTTPRequest\l::setMetodo" alt="" coords="294,5,451,44"/>
+<area shape="rect" id="node3" href="$classMensajeHTTPRequest.html#a3dc7c23432fd17d0a5d820e05eff0708" title="MensajeHTTPRequest\l::setURI" alt="" coords="294,68,451,107"/>
+<area shape="rect" id="node4" href="$classMensajeHTTP.html#af1e394fc2962d285424a94bb7c290a4c" title="MensajeHTTP::agregarHeader" alt="" coords="509,132,713,157"/>
+<area shape="rect" id="node5" href="$classMensajeHTTP.html#a0797090e1196d3d43b2f7484525d81c2" title="MensajeHTTP::setBody" alt="" coords="291,183,454,208"/>
+<area shape="rect" id="node6" href="$classManejadorDeConexiones.html#a5ddc9c13584c9ccdda092c2330e1856b" title="ManejadorDeConexiones\l::enviarMensajeHTTP" alt="" coords="287,232,458,271"/>
+<area shape="rect" id="node7" href="$classMensajeHTTP.html#a2bc7778920edd7b85ded455ca16098b7" title="MensajeHTTP::getHeader" alt="" coords="523,181,699,207"/>
+<area shape="rect" id="node9" href="$classMensajeHTTPRequest.html#a7b1f874c87b76188e7c76eeea5b9e281" title="MensajeHTTPRequest\l::toString" alt="" coords="533,231,689,269"/>
+<area shape="rect" id="node11" href="$classMensajeHTTPReply.html#a95c2acf562527553dc7218827c3d2049" title="MensajeHTTPReply::toString" alt="" coords="514,293,708,319"/>
+<area shape="rect" id="node12" href="$classMensajeHTTPReply.html#a1b3a8cc18ee5f15a3444859c36c86e7f" title="MensajeHTTPReply::getCodigo" alt="" coords="506,343,715,368"/>
+<area shape="rect" id="node8" href="$classMensajeHTTP.html#ae287891749d61472d882403a9a89d0a4" title="MensajeHTTP::tieneHeader" alt="" coords="763,181,950,207"/>
+<area shape="rect" id="node10" href="$classMensajeHTTP.html#a3a4ae2f0872d7fd3662cc93ebfc12c65" title="MensajeHTTP::getBody" alt="" coords="775,265,938,291"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="MensajeHTTP::getHeader" name="MensajeHTTP::getHeader">
+<area shape="rect" id="node2" href="$classManejadorDeConexiones.html#a5ddc9c13584c9ccdda092c2330e1856b" title="ManejadorDeConexiones\l::enviarMensajeHTTP" alt="" coords="230,33,401,72"/>
+<area shape="rect" id="node3" href="$classMensajero.html#a0e96fe365982337885ad15b9855aa2d9" title="Mensajero::notificarUsuario\lSobreMatchCon" alt="" coords="474,5,658,44"/>
+<area shape="rect" id="node4" href="$classSharedDataBase.html#ab97922b7ccd9e5977e253929c4a25346" title="SharedDataBase::cambiarDireccion" alt="" coords="449,68,683,93"/>
+</map>

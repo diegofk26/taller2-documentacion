@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Guia de instalacion &mdash; Application Server .0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Application Server .0 documentation" href="../index.html" />
+    <link rel="up" title="Application Server - Taller de programación II [Grupo 8]" href="appserver.html" />
+    <link rel="next" title="Manual de usuario" href="manualUsuario.html" />
+    <link rel="prev" title="Application Server - Taller de programación II [Grupo 8]" href="appserver.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="guia-de-instalacion">
+<h1>Guia de instalacion<a class="headerlink" href="#guia-de-instalacion" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="descarga">
+<h2>Descarga<a class="headerlink" href="#descarga" title="Permalink to this headline">¶</a></h2>
+<p>Para descargar este servidor se debera ir al <a class="reference external" href="https://github.com/seguijoaquin/taller2-appserver">repositorio del proyecto</a>
+o bien utilizando el siguiente comando:</p>
+<blockquote>
+<div>&gt; git clone <a class="reference external" href="https://github.com/seguijoaquin/taller2-appserver.git">https://github.com/seguijoaquin/taller2-appserver.git</a></div></blockquote>
+</div>
+<div class="section" id="dependencias">
+<h2>Dependencias<a class="headerlink" href="#dependencias" title="Permalink to this headline">¶</a></h2>
+<p>Base de datos RocksDB, Framework de testing Google tests, junto con Google Mock para instalarlos:</p>
+<blockquote>
+<div>&gt; ./instalar_dependencias.sh</div></blockquote>
+<p>Se utiliza mongoose para la parte de web server; no es necesaria su instalacion.</p>
+<p>Se utiliza jsoncpp como parser; no es necesaria su instalacion previa.</p>
+</div>
+<div class="section" id="instalacion">
+<h2>Instalacion<a class="headerlink" href="#instalacion" title="Permalink to this headline">¶</a></h2>
+<p>Se detallaran los pasos a seguir para instalar el servidor en ubuntu 14.04 y por consola,
+ante algun error causado por utilizar otro sistema, utilizarlo mediante Docker.</p>
+<p>Posicionarse en la carpeta del proyecto, es decir, aquella que fue creada ante
+la invocacion del comando git clone. Una vez ahi invocar los siguientes comandos de bash:</p>
+<blockquote>
+<div><p>&gt; mkdir -p build</p>
+<p>&gt; cd build</p>
+<p>&gt; cmake ..</p>
+<p>&gt; make</p>
+</div></blockquote>
+</div>
+<div class="section" id="instalacion-de-docker">
+<h2>Instalacion de Docker<a class="headerlink" href="#instalacion-de-docker" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li>Obtener docker desde la <a class="reference external" href="https://www.docker.com/">pagina oficial de docker</a></li>
+<li>Si es la primera vez que se quiere ejecutar el Contenedor. Ejecutar el siguiente comando:</li>
+</ol>
+<blockquote>
+<div>&gt; sudo docker sudo docker run -i -t -p 8000:8000 juanmafc/app_server:v1</div></blockquote>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Esto mapea el puerto 8000 del host al puerto 8000 del contenedor para mas informacion sobre como se puede cambiar estos puertos ver el manual de usuario en la seccion de Docker.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Guia de instalacion</a><ul>
+<li><a class="reference internal" href="#descarga">Descarga</a></li>
+<li><a class="reference internal" href="#dependencias">Dependencias</a></li>
+<li><a class="reference internal" href="#instalacion">Instalacion</a></li>
+<li><a class="reference internal" href="#instalacion-de-docker">Instalacion de Docker</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="appserver.html">Application Server - Taller de programación II  [Grupo 8]</a><ul>
+      <li>Previous: <a href="appserver.html" title="previous chapter">Application Server - Taller de programación II  [Grupo 8]</a></li>
+      <li>Next: <a href="manualUsuario.html" title="next chapter">Manual de usuario</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/Appserver/guiaInstalacion.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Grupo 8.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/Appserver/guiaInstalacion.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

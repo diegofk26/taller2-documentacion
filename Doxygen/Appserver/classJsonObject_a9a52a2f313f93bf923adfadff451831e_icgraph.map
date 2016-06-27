@@ -1,0 +1,9 @@
+<map id="JsonObject::getJsonArray" name="JsonObject::getJsonArray">
+<area shape="rect" id="node2" href="$classListadoDeIntereses.html#a148967d35fc5714b1a8158dc60cd80a8" title="ListadoDeIntereses\l::agregarIntereses" alt="" coords="230,61,366,100"/>
+<area shape="rect" id="node7" href="$classListadoDeUsuarios.html#a426d57efabeab51fa553cddd5511b9f2" title="ListadoDeUsuarios::\lagregarUsuarios" alt="" coords="227,124,369,163"/>
+<area shape="rect" id="node3" href="$classSharedDataBase.html#a10d3cffe99db34f8aec5b9deb3ae75aa" title="SharedDataBase::obtenerListado\lDeIntereses" alt="" coords="417,5,635,44"/>
+<area shape="rect" id="node4" href="$classUsuario.html#ac4a42ec1b452a32367ae2a5f0273b223" title="Usuario::getIntereses" alt="" coords="452,68,600,93"/>
+<area shape="rect" id="node5" href="$classAdministradorCandidatos.html#ab0ac32f8834aff9bfb7aa4da33bfe57c" title="AdministradorCandidatos\l::compararIntereses" alt="" coords="701,61,872,100"/>
+<area shape="rect" id="node6" href="$classAdministradorCandidatos.html#a5a27cb9f07ec5c10a92ff9002e3d009a" title="AdministradorCandidatos\l::buscarCandidatoPara" alt="" coords="937,93,1108,132"/>
+<area shape="rect" id="node8" href="$classSharedDataBase.html#aed6ca98c3f4611669c954a5349d87a7a" title="SharedDataBase::obtenerPerfil\lDelUsuario" alt="" coords="683,124,889,163"/>
+</map>

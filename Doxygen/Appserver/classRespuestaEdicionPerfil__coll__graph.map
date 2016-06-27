@@ -1,0 +1,5 @@
+<map id="RespuestaEdicionPerfil" name="RespuestaEdicionPerfil">
+<area shape="rect" id="node2" href="$classRespuestaDelServicio.html" title="RespuestaDelServicio" alt="" coords="9,167,161,192"/>
+<area shape="rect" id="node3" href="$classMensajeHTTPReply.html" title="MensajeHTTPReply" alt="" coords="15,80,155,105"/>
+<area shape="rect" id="node4" href="$classMensajeHTTP.html" title="MensajeHTTP" alt="" coords="32,5,138,31"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="ManejadorDeConexiones::enviarMensajeHTTP" name="ManejadorDeConexiones::enviarMensajeHTTP">
+<area shape="rect" id="node2" href="$classMensajeHTTP.html#a2bc7778920edd7b85ded455ca16098b7" title="MensajeHTTP::getHeader" alt="" coords="241,5,418,31"/>
+<area shape="rect" id="node4" href="$classMensajeHTTPRequest.html#a7b1f874c87b76188e7c76eeea5b9e281" title="MensajeHTTPRequest\l::toString" alt="" coords="251,55,408,93"/>
+<area shape="rect" id="node6" href="$classMensajeHTTPReply.html#a95c2acf562527553dc7218827c3d2049" title="MensajeHTTPReply::toString" alt="" coords="233,117,427,143"/>
+<area shape="rect" id="node7" href="$classMensajeHTTPReply.html#a1b3a8cc18ee5f15a3444859c36c86e7f" title="MensajeHTTPReply::getCodigo" alt="" coords="225,167,434,192"/>
+<area shape="rect" id="node3" href="$classMensajeHTTP.html#ae287891749d61472d882403a9a89d0a4" title="MensajeHTTP::tieneHeader" alt="" coords="482,5,669,31"/>
+<area shape="rect" id="node5" href="$classMensajeHTTP.html#a3a4ae2f0872d7fd3662cc93ebfc12c65" title="MensajeHTTP::getBody" alt="" coords="494,89,657,115"/>
+</map>

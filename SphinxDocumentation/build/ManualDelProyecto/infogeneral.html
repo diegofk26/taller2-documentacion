@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Informacion general &mdash; Application Server .0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Application Server .0 documentation" href="../index.html" />
+    <link rel="up" title="Manual del Proyecto" href="manualproy.html" />
+    <link rel="next" title="Organizacion del equipo de desarrollo" href="organizacion.html" />
+    <link rel="prev" title="Manual del Proyecto" href="manualproy.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="informacion-general">
+<h1>Informacion general<a class="headerlink" href="#informacion-general" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="hipotesis-y-supuestos">
+<h2>Hipotesis y supuestos<a class="headerlink" href="#hipotesis-y-supuestos" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="lecciones-aprendidas">
+<h2>Lecciones aprendidas<a class="headerlink" href="#lecciones-aprendidas" title="Permalink to this headline">¶</a></h2>
+<p>1. Mejorar la organizacion y division de tareas, asignando a cada persona a una
+tecnologia sobre la cual pueda trabajar comodamente, ya que nos paso que una de
+las personas asignadas al application server tenia problemas con su sistema
+operativo y con los problemas que traia la virtualizacion del sistema utilizado
+por los demas opto por trabajar dentro de un container con emacs, sin saber
+utilizarlo.</p>
+<p>2. No confiarse ni creer en que un modulo totalmente desconocido sera facil de
+desarrollar, esto es con el shared server le llevo mucho mas tiempo del que nos
+dieron a entender que llevaria por el hecho de que no se conocian los temas de
+bases de datos, Mensajes HTTP, Angular, HTML, etc.</p>
+<p>3. La importancia de documentar desde un principio con el formato final, para este
+caso con sphinx, ya que los demas informes los realizamos en google docs lo cual
+a la hora de querer pasarlo a sphinx lleva su tiempo.</p>
+<p>4. Poner un esfuerzo extra en un principio para poder llegar mas tranquilos a la
+entrega final.</p>
+<p>5. Elegir el entorno de testing mas conveniente de entrada. Nos paso que para
+tener pruebas lo antes posibles tomamos cppunit y lo utilizamos, pero luego
+nos parecio mejor idea utilizar google test, y la migracion de las pruebas
+existentes llevo su tiempo.</p>
+<p>6. Poner en funcionamiento y entender rocksDB y Mongoose tomo mucho mas tiempo del
+estipulado.</p>
+<p>7. Automatizar algunas pruebas nos consumio demasiado tiempo, y en algunos casos
+se escribian de manera incorrecta por algun detalle que no teniamos en cuenta y
+daban resultados erroneos aun estando bien implementadas las clases.
+Un ejemplo de esto fue en las clases que dependen de una base de datos, para la
+mayoria de las pruebas seutiliza la misma base de datos por lo que debiamos invocar
+un script de bash que limpie el entorno de testing tras la corrida de una prueba.</p>
+<p>8. Querer optimizar de entrada sin ser necesario. Se perdio bastante tiempo al
+tratar de implementar una solucion eficiente pero demasiado compleja, la cual
+luego de desarrollar una parte fue descartada y se opto por una mas sencilla.</p>
+</div>
+<div class="section" id="known-issues">
+<h2>Known issues<a class="headerlink" href="#known-issues" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="application-server">
+<h3>Application Server<a class="headerlink" href="#application-server" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Mala estructura jerarquica de carpetas.</li>
+<li>Algunas clases como EstadisticasCandidatos tienen muchas responsabilidades.</li>
+<li>FactoryServicios podria estar mejor modularizada.</li>
+<li>Se responde a todos los HTTP Requests mal formulados con el mismo mensaje.</li>
+<li>Se podria haber implementado un iterador para recorrer ListadoDeUsuarios.</li>
+</ol>
+</div>
+<div class="section" id="cliente">
+<h3>Cliente<a class="headerlink" href="#cliente" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Aleatoriamente se generan en el expandable list view hijos o childs de mas.</li>
+<li>Si se cierra el appserver mientras estoy conectado y entro a editListViewActivity
+no se actualizan las vistas.</li>
+</ol>
+</div>
+<div class="section" id="shared-server">
+<h3>Shared Server<a class="headerlink" href="#shared-server" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>En el cliente web: no funciona la modificacion de fotos.</li>
+</ol>
+<p>Shared</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Informacion general</a><ul>
+<li><a class="reference internal" href="#hipotesis-y-supuestos">Hipotesis y supuestos</a></li>
+<li><a class="reference internal" href="#lecciones-aprendidas">Lecciones aprendidas</a></li>
+<li><a class="reference internal" href="#known-issues">Known issues</a><ul>
+<li><a class="reference internal" href="#application-server">Application Server</a></li>
+<li><a class="reference internal" href="#cliente">Cliente</a></li>
+<li><a class="reference internal" href="#shared-server">Shared Server</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="manualproy.html">Manual del Proyecto</a><ul>
+      <li>Previous: <a href="manualproy.html" title="previous chapter">Manual del Proyecto</a></li>
+      <li>Next: <a href="organizacion.html" title="next chapter">Organizacion del equipo de desarrollo</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/ManualDelProyecto/infogeneral.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Grupo 8.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/ManualDelProyecto/infogeneral.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

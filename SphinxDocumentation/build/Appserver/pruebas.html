@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Pruebas - Application Server &mdash; Application Server .0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Application Server .0 documentation" href="../index.html" />
+    <link rel="up" title="Application Server - Taller de programación II [Grupo 8]" href="appserver.html" />
+    <link rel="next" title="Cliente - Taller de programación II [Grupo 8]" href="../Cliente/cliente.html" />
+    <link rel="prev" title="Manual de usuario" href="manualUsuario.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="pruebas-application-server">
+<h1>Pruebas - Application Server<a class="headerlink" href="#pruebas-application-server" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div>El Application server cuenta con pruebas tanto unitarias como de API que ayudan</div></blockquote>
+<p>a verificar su correcto funcionamiento. En las siguientes secciones daremos a
+conocer los conceptos basicos que se deben saber acerca de ellas.</p>
+<div class="section" id="coverage">
+<h2>Coverage<a class="headerlink" href="#coverage" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>Para asegurarnos de que cada clase sea probada en la mayoria de sus metodos,</div></blockquote>
+<p>se genera un informe de code coverage para saber que las clases se probaron en
+una medida suficiente.</p>
+<blockquote>
+<div><a class="reference external" href="./Coverage/index.html">Click aqui para ver el informe de coverage actual</a></div></blockquote>
+</div>
+<div class="section" id="pruebas-de-api">
+<h2>Pruebas de API<a class="headerlink" href="#pruebas-de-api" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>El proyecto cuenta con pruebas especificas para probar la API rest existente</div></blockquote>
+<p>entre el Cliente y el Application Server.</p>
+<div class="section" id="como-correrlas">
+<h3>¿Como correrlas?<a class="headerlink" href="#como-correrlas" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Para correr las pruebas debemos posicionarnos en el directorio raiz del</div></blockquote>
+<p>proyecto del Application Server, luego:</p>
+<blockquote>
+<div><p>&gt; cd Appserver</p>
+<p>&gt; cd Test</p>
+<p>&gt; ./correr_pruebas_API.sh</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="pruebas-unitarias">
+<h2>Pruebas Unitarias<a class="headerlink" href="#pruebas-unitarias" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div>El proyecto ademas cuenta con pruebas especificas para probar la funcionalidad</div></blockquote>
+<p>de cada clase en particular.</p>
+<div class="section" id="id1">
+<h3>¿Como correrlas?<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>Una vez posicionados en el directorio raiz del proyecto del Application server</div></blockquote>
+<p>ejecutar los siguientes comandos:</p>
+<blockquote>
+<div><p>&gt; cd Appserver</p>
+<p>&gt; cd Test</p>
+<p>&gt; ./correrUnitTests.sh</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">¡Es necesario que el proyecto haya sido compilado para poder correr las pruebas!</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Pruebas - Application Server</a><ul>
+<li><a class="reference internal" href="#coverage">Coverage</a></li>
+<li><a class="reference internal" href="#pruebas-de-api">Pruebas de API</a><ul>
+<li><a class="reference internal" href="#como-correrlas">¿Como correrlas?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pruebas-unitarias">Pruebas Unitarias</a><ul>
+<li><a class="reference internal" href="#id1">¿Como correrlas?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="appserver.html">Application Server - Taller de programación II  [Grupo 8]</a><ul>
+      <li>Previous: <a href="manualUsuario.html" title="previous chapter">Manual de usuario</a></li>
+      <li>Next: <a href="../Cliente/cliente.html" title="next chapter">Cliente - Taller de programación II [Grupo 8]</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/Appserver/pruebas.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Grupo 8.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/Appserver/pruebas.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

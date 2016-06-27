@@ -1,0 +1,5 @@
+<map id="mg_resolve_async_request" name="mg_resolve_async_request">
+<area shape="rect" id="node2" href="$structmg__dns__message.html" title="mg_dns_message" alt="" coords="32,205,163,231"/>
+<area shape="rect" id="node3" href="$structmg__dns__resource__record.html" title="mg_dns_resource_record" alt="" coords="99,105,272,131"/>
+<area shape="rect" id="node4" href="$structmg__str.html" title="mg_str" alt="" coords="66,5,129,31"/>
+</map>

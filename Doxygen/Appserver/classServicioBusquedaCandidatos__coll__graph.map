@@ -1,0 +1,6 @@
+<map id="ServicioBusquedaCandidatos" name="ServicioBusquedaCandidatos">
+<area shape="rect" id="node2" href="$classServicio.html" title="Servicio" alt="" coords="69,253,138,279"/>
+<area shape="rect" id="node3" href="$classRespuestaDelServicio.html" title="RespuestaDelServicio" alt="" coords="27,167,180,192"/>
+<area shape="rect" id="node4" href="$classMensajeHTTPReply.html" title="MensajeHTTPReply" alt="" coords="33,80,174,105"/>
+<area shape="rect" id="node5" href="$classMensajeHTTP.html" title="MensajeHTTP" alt="" coords="50,5,157,31"/>
+</map>

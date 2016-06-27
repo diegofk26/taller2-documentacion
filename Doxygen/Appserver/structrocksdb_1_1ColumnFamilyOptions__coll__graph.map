@@ -1,0 +1,7 @@
+<map id="rocksdb::ColumnFamilyOptions" name="rocksdb::ColumnFamilyOptions">
+<area shape="rect" id="node2" href="$structrocksdb_1_1CompactionOptionsFIFO.html" title="rocksdb::CompactionOptionsFIFO" alt="" coords="5,5,228,31"/>
+<area shape="rect" id="node3" href="$classrocksdb_1_1CompactionOptionsUniversal.html" title="rocksdb::CompactionOptions\lUniversal" alt="" coords="21,55,213,93"/>
+<area shape="rect" id="node4" href="$structrocksdb_1_1CompressionOptions.html" title="rocksdb::CompressionOptions" alt="" coords="17,117,217,143"/>
+<area shape="rect" id="node5" href="$classrocksdb_1_1CompactionFilter.html" title="rocksdb::CompactionFilter" alt="" coords="29,167,205,192"/>
+<area shape="rect" id="node6" href="$classrocksdb_1_1Comparator.html" title="rocksdb::Comparator" alt="" coords="44,216,190,241"/>
+</map>
