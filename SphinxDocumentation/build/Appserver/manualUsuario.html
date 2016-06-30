@@ -66,17 +66,20 @@ y utilizar el siguiente comando:</p>
 <div class="section" id="cerrar-el-servidor">
 <h2>Cerrar el Servidor<a class="headerlink" href="#cerrar-el-servidor" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div>En la carpeta donde se corre el servidor se encontrara un archivo llamado:</div></blockquote>
-<p>comandos.txt</p>
-<blockquote>
-<div>Escribiendo: cerrar en una linea de este archivo se cerrara el server.</div></blockquote>
+<div><dl class="docutils">
+<dt>En la carpeta donde se corre el servidor se encontrara un archivo llamado:</dt>
+<dd>comandos.txt</dd>
+</dl>
+<p>Escribiendo: cerrar en una linea de este archivo se cerrara el server.</p>
+</div></blockquote>
 <div class="section" id="cambiar-el-shared">
 <h3>Cambiar el Shared<a class="headerlink" href="#cambiar-el-shared" title="Permalink to this headline">¶</a></h3>
 <blockquote>
-<div>En la carpeta donde se corre el servidor se encontrara un archivo llamado:</div></blockquote>
-<p>comandos.txt</p>
-<blockquote>
-<div><p>Escribiendo cambiarShared URL
+<div><dl class="docutils">
+<dt>En la carpeta donde se corre el servidor se encontrara un archivo llamado:</dt>
+<dd>comandos.txt</dd>
+</dl>
+<p>Escribiendo cambiarShared URL
 se cambiara la URL del sharedServer</p>
 <p>Ejemplo:</p>
 <p>cambiarShared t2shared.herokuapp.com</p>
@@ -85,6 +88,47 @@ se cambiara la URL del sharedServer</p>
 </div>
 <div class="section" id="docker">
 <h2>Docker<a class="headerlink" href="#docker" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>Para utilizar el servidor en un contenedor se deben seguir los siguientes
+pasos:</p>
+<ol class="arabic simple">
+<li>Pararse en la carpeta Docker del proyecto.</li>
+<li>Utilizar el siguiente comando:</li>
+</ol>
+<blockquote>
+<div>&gt; docker build -t appserver .</div></blockquote>
+<ol class="arabic simple" start="3">
+<li>Correr el container con:</li>
+</ol>
+<blockquote>
+<div><p>&gt; docker run -i -t &#8211;name appserver -e PUERTO=&#8216;3000&#8217; -e SHARED_DIR=&#8217;direccion del shared&#8217; -e LIMITE_CANDIDATOS=&#8217;numero entero positivo&#8217; -p 8000:3000 appserver</p>
+<p>Donde se deben completar:</p>
+<blockquote>
+<div><p>PUERTO=&#8217;Puerto del App server&#8217;, el cual debe ser el mismo que el segundo puerto
+de -p PUERTO_HOST:PUERTO_APP</p>
+<p>SHARED_DIR: Es la URL del Shared Server.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">La URL no debe incluir http o https. Por ejemplo: t2shared.herokuapp.com</p>
+</div>
+<p>LIMITE_CANDIDATOS: Limite diario maximo de candidatos que puede pedir un usuario.</p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li>Para cerrar el servidor o cambiar el shared debemos abrir otra consola, ingresar al container</li>
+</ol>
+<blockquote>
+<div><p>&gt; docker exec -it appserver bash</p>
+<p>Una vez ahi utilizamos vi (editor de texto) para modificar el archivo comandos.txt</p>
+<p>&gt; vi comandos.txt</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Se recomienda antes de esto aprender a utilizar vi en el caso de no haber trabajado con el anteriormente.</p>
+</div>
+<p>Una vez dentro de este archivo seguir los pasos mecionados en las secciones anteriores
+correspondientes a estas acciones.</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
 </div>
 </div>
 
